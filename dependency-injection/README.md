@@ -140,7 +140,7 @@ If not, it will create it and assign it to `$this->member`.
 ```php
     private function getMember(): Member
     {
-        if (!$this->member) {
+        if ($this->member === null) {
             $this->member = new Member();
         }
 
