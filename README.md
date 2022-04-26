@@ -5,3 +5,9 @@ This repository contains examples of how specific scenarios in the code can be t
 The main idea is that as little of the code should be changed a possible, so adding tests remains cheap.
 
 Once tests for code have been created, the code-under-test could also be refactored.
+
+## Refactoring Patterns
+
+The following refactoring patterns are available:
+
+- [Dependency injection](./dependency-injection)
