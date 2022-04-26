@@ -1,0 +1,23 @@
+{
+  "autoload": {
+    "classmap": [
+      "dependency-injection/"
+    ]
+  },
+  "authors": [
+    {"name": "Ben Peachey", "email": "github@pother.ca"}
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "description": "Patterns for testing code, or refactoring code in order to write tests.",
+  "license": "MPL-1.0",
+  "name": "potherca/testing-refactor-patterns",
+  "require": {
+    "php": ">=7.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "type": "project"
+}
