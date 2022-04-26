@@ -11,7 +11,7 @@ Let's take [the following class](./Example_01.php) as an example:
 
 class Example
 {
-    private Member $member;
+    private $member;
 
     public function __construct()
     {
